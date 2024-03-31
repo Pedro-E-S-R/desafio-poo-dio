@@ -37,9 +37,15 @@ public class Main {
         devCamila.setNome("Camila");
         devCamila.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
+        devCamila.getDesafios();
         devCamila.progredir();
+
+
         devCamila.progredir();
-        System.out.println("-");
+        System.out.println("-------------------");
+        System.out.println(devCamila.getDesafios());
+        System.out.println("-------------------");
+       
         System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Camila:" + devCamila.getConteudosConcluidos());
         System.out.println("XP:" + devCamila.calcularTotalXp());
